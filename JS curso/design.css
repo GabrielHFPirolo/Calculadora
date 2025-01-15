@@ -1,0 +1,22 @@
+.calculadora{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: gray;
+}
+.botao{
+  height: 40px;
+  width: 40px;
+  font-size: 30px;
+  margin: 3px;
+  cursor: pointer;
+}
+#visualizador{
+  background-color: white;
+  font-size: 30px;
+  height: 35px;
+  width: 160px;
+  margin:10px;
+  padding: 10px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" type="text/css" href="design.css" media="screen" />
+</head>
+<body>
+    <div class="calculadora">
+        <script src="index.js"></script>
+        <p id="visualizador"></p>
+        <table>
+            <tr>
+                <td><button class="botao" onclick="adicionar('+')">+</button></td>
+                <td><button class="botao" onclick="adicionar('-')">-</button></td>
+                <td><button class="botao" onclick="adicionar('*')">*</button></td>
+                <td><button class="botao" onclick="adicionar('/')">/</button></td>
+            </tr>
+            <tr>
+                <td><button class="botao" onclick="adicionar('1')">1</button></td>
+                <td><button class="botao" onclick="adicionar('2')">2</button></td>
+                <td><button class="botao" onclick="adicionar('3')">3</button></td>
+                <td><button class="botao" onclick="apagar()">D</button></td>
+            </tr>
+            <tr>
+                <td><button class="botao" onclick="adicionar('4')">4</button></td>
+                <td><button class="botao" onclick="adicionar('5')">5</button></td>
+                <td><button class="botao" onclick="adicionar('6')">6</button></td>
+                <td><button class="botao" onclick="calcular()">=</button></td>
+            </tr>
+            <tr>
+                <td><button class="botao" onclick="adicionar('7')">7</button></td>
+                <td><button class="botao" onclick="adicionar('8')">8</button></td>
+                <td><button class="botao" onclick="adicionar('9')">9</button></td>
+                <td><button class="botao" onclick="adicionar('0')">0</button></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
